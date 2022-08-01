@@ -1,0 +1,13 @@
+name: Build the application 
+on:
+  push:
+    branches:
+      - feature-*
+  pull-request:
+    branches:
+      - master
+job: 
+  runs-on: ubuntu-latest
+  steps:
+  - name: build the application
+    run: echo typing 
