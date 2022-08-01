@@ -1,13 +1,14 @@
-name: Build the application 
-on:
-  push:
-    branches:
+name: Build the application
+on: 
+  push: 
+    branches: 
       - feature-*
-  pull-request:
-    branches:
+  pull_request: 
+    branches: 
       - master
-job: 
-  runs-on: ubuntu-latest
-  steps:
-  - name: build the application
-    run: echo typing 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: build the application
+      run: echo running
