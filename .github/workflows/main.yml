@@ -31,7 +31,7 @@ jobs:
         uses: kul-samples/ms-teams-notification@v1.0
         with:
           webhook_uri: ${{ secrets.MS_TEAMS_WEBHOOK_URI }}   
-          message: "This is from custom actions created." 
+          message: "This is from custom actions created by Chetan." 
 
 
 
