@@ -30,7 +30,7 @@ jobs:
         uses: ctnpatil14/ms-teams-notifications@v1.1
         with:
           webhook_uri: ${{ secrets.MS_TEAMS_WEBHOOK_URI }}   
-          message: "This is from custom actions created by Chetan." 
+          message: "This is from custom actions created by  Chetan. :) thanks " 
 
 
 
